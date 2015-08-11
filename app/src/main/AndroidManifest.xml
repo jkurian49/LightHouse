@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cumakerspace.lighthouse" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appName"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity.MainActivity"
+            android:label="@string/appName" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity.Systems"
+            android:label="@string/title_activity_user_info" >
+        </activity>
+        <activity
+            android:name=".MainActivity.lirr_config"
+            android:label="@string/title_activity_lirr_config"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity.njtransit_config"
+            android:label="@string/title_activity_njtransit_config" >
+        </activity>
+        <activity
+            android:name=".MainActivity.read_text"
+            android:label="@string/title_activity_read_text" >
+        </activity>
+        <activity
+            android:name=".MainActivity.settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".MainActivity.CheckBluetooth"
+            android:label="@string/title_activity_check_bluetooth" >
+        </activity>
+        <activity
+            android:name=".MainActivity.UploadConfirm"
+            android:label="@string/title_activity_upload_confirm" >
+        </activity>
+        <activity
+            android:name=".MainActivity.UpdateDatabase"
+            android:label="@string/title_activity_update_database" >
+        </activity>
+    </application>
+
+</manifest>

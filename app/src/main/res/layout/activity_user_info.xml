@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft= "@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout">
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/njrailbutton"
+        android:textSize="20sp"
+        android:id="@+id/njrailbutton"
+        android:width="275dp"
+        android:height="80dp"
+        android:layout_centerHorizontal="true"
+
+/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/njbusbutton"
+        android:id="@+id/njbusbutton"
+        android:width="275dp"
+        android:height="80dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/njrailbutton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lirrbutton"
+        android:width="275dp"
+        android:height="80dp"
+        android:textSize="20sp"
+        android:id="@+id/lirrbutton"
+        android:layout_below="@+id/njbusbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mnbutton"
+        android:id="@+id/mnbutton"
+        android:width="275dp"
+        android:height="80dp"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/lirrbutton"
+        android:layout_alignStart="@+id/lirrbutton"
+        android:layout_below="@+id/lirrbutton"
+
+        />
+
+
+
+
+</RelativeLayout>

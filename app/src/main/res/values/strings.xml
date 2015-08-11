@@ -1,0 +1,416 @@
+<resources>
+    <string name="appName">LightHouse</string>
+
+    <string name="welcome">Welcome To \n LightHouse</string>
+    <string name="actionSettings">Settings</string>
+    <string name="startButtonText">Get Started</string>
+    <string name="title_activity_user_info">UserInfo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mnbutton">Metro North RailRoad</string>
+    <string name="njrailbutton">NJ Transit Rail</string>
+    <string name="njbusbutton">NJ Transit Bus</string>
+    <string name="lirrbutton">Long Island RailRoad</string>
+    <string name="title_activity_lirr_config">lirr_config</string>
+    <string name="from_text">From:</string>
+    <string name="to_text">To:</string>
+
+
+
+        <string name="app_name">LED On Off</string>
+    <string-array name="lirr_station_list">
+        <item>Albertson</item>
+        <item>Amagansett</item>
+        <item>Amityville</item>
+        <item>Atlantic Terminal</item>
+        <item>Auburndale</item>
+        <item>Babylon</item>
+        <item>Baldwin</item>
+        <item>Bay Shore</item>
+        <item>Bayside</item>
+        <item>Bellerose</item>
+        <item>Bellmore</item>
+        <item>Bellport</item>
+        <item>Belmont</item>
+        <item>Bethpage</item>
+        <item>Brentwood</item>
+        <item>Bridgehampton</item>
+        <item>Broadway</item>
+        <item>Carle Place</item>
+        <item>Cedarhurst</item>
+        <item>Central Islip</item>
+        <item>Centre Avenue</item>
+        <item>Cold Spring Harbor</item>
+        <item>Copiague</item>
+        <item>Country Life Press</item>
+        <item>Deer Park</item>
+        <item>Douglaston</item>
+        <item>East Hampton</item>
+        <item>East New York</item>
+        <item>East Rockaway</item>
+        <item>East Williston</item>
+        <item>Far Rockaway</item>
+        <item>Farmingdale</item>
+        <item>Floral Park</item>
+        <item>Flushing Main Street</item>
+        <item>Forest Hills</item>
+        <item>Freeport</item>
+        <item>Garden City</item>
+        <item>Gibson</item>
+        <item>Glen Cove</item>
+        <item>Glen Head</item>
+        <item>Glen Street</item>
+        <item>Great Neck</item>
+        <item>Great River</item>
+        <item>Greenlawn</item>
+        <item>Greenport</item>
+        <item>Greenvale</item>
+        <item>Hampton Bays</item>
+        <item>Hempstead</item>
+        <item>Hempstead Gardens</item>
+        <item>Hewlett</item>
+        <item>Hicksville</item>
+        <item>Hollis</item>
+        <item>Hunterspoint Avenue</item>
+        <item>Huntington</item>
+        <item>Inwood</item>
+        <item>Island Park</item>
+        <item>Islip</item>
+        <item>Jamaica</item>
+        <item>Kew Garden</item>
+        <item>Kings Park</item>
+        <item>Lakeview</item>
+        <item>Laurelton</item>
+        <item>Lawrence</item>
+        <item>Lindenhurst</item>
+        <item>Little Neck</item>
+        <item>Locust Manor</item>
+        <item>Locust Valley</item>
+        <item>Long Beach</item>
+        <item>Long Island City</item>
+        <item>Lynbrook</item>
+        <item>Malverne</item>
+        <item>Manhasset</item>
+        <item>Massapequa</item>
+        <item>Massapequa Park</item>
+        <item>Mastic Shirley</item>
+        <item>Mattituck</item>
+        <item>Meadowlands</item>
+        <item>Medford</item>
+        <item>Merillon Avenue</item>
+        <item>Merrick</item>
+        <item>Mets-Willets Point</item>
+        <item>Mineola</item>
+        <item>Montauk</item>
+        <item>Murray Hill</item>
+        <item>Nassau Boulevard</item>
+        <item>New Hyde Park</item>
+        <item>Nepal</item>
+        <item>Northport</item>
+        <item>Nostrand Avenue</item>
+        <item>Oakdale</item>
+        <item>Oceanside</item>
+        <item>Oyster Bay</item>
+        <item>Patchogue</item>
+        <item>Penn Station</item>
+        <item>Pinelawn</item>
+        <item>Plandome</item>
+        <item>Port Jefferson</item>
+        <item>Port Washington</item>
+        <item>Queens Village</item>
+        <item>Riverhead</item>
+        <item>Rockville Centre</item>
+        <item>Ronkonkoma</item>
+        <item>Rosedale</item>
+        <item>Roslyn</item>
+        <item>Sayville</item>
+        <item>Sea Cliff</item>
+        <item>Seaford</item>
+        <item>Smithtown</item>
+        <item>Southampton</item>
+        <item>Southold</item>
+        <item>Speonk</item>
+        <item>St. Albans</item>
+        <item>St. James</item>
+        <item>Stewart Manor</item>
+        <item>Stony Brook</item>
+        <item>Syosset</item>
+        <item>Valley Stream</item>
+        <item>Wantagh</item>
+        <item>West Hempstead</item>
+        <item>Westbury</item>
+        <item>Westhampton</item>
+        <item>Westwood</item>
+        <item>Woodmere</item>
+        <item>Woodside</item>
+        <item>Wyandanch</item>
+        <item>Yaphank</item>
+
+
+    </string-array>
+    <string name="title_activity_njtransit_config">njtransit_config</string>
+    <string-array name="nj_station_list">
+
+        <item>30th St. Phl.</item>
+        <item>Absecon</item>
+        <item>Allendale</item>
+        <item>Allenhurst</item>
+        <item>Anderson Street</item>
+        <item>Annandale</item>
+        <item>Asbury Park</item>
+        <item>Atco</item>
+        <item>Atlantic City</item>
+        <item>Avenel</item>
+        <item>Basking Ridge</item>
+        <item>Bay Head</item>
+        <item>Bay Street</item>
+        <item>Belmar</item>
+        <item>Berkeley Heights</item>
+        <item>Bernardsville</item>
+        <item>Bloomfield</item>
+        <item>Boonton</item>
+        <item>Bound Brook</item>
+        <item>Bradley Beach</item>
+        <item>Brick Church</item>
+        <item>Bridgewater</item>
+        <item>Broadway</item>
+        <item>Campbell Hall</item>
+        <item>Chatham</item>
+        <item>Cherry Hill</item>
+        <item>Clifton</item>
+        <item>Convent</item>
+        <item>Roselle Park</item>
+        <item>Cranford</item>
+        <item>Delawanna</item>
+        <item>Denville</item>
+        <item>Dover</item>
+        <item>Dunellen</item>
+        <item>East Orange</item>
+        <item>Edison Station</item>
+        <item>Egg Harbor</item>
+        <item>Elberon</item>
+        <item>Elizabeth</item>
+        <item>Emerson</item>
+        <item>Essex Street</item>
+        <item>Fanwood</item>
+        <item>Far Hills</item>
+        <item>Garfield</item>
+        <item>Garwood</item>
+        <item>Gillette</item>
+        <item>Gladstone</item>
+        <item>Glen Ridge</item>
+        <item>Glen Rock Boro Hall</item>
+        <item>Glen Rock Main Line</item>
+        <item>Hackettstown</item>
+        <item>Hammonton</item>
+        <item>Harriman</item>
+        <item>Hawthorne</item>
+        <item>Hazlet</item>
+        <item>High Bridge</item>
+        <item>Highland Avenue</item>
+        <item>Hillsdale</item>
+        <item>Hoboken</item>
+        <item>Hohokus</item>
+        <item>Kingsland</item>
+        <item>Lake Hopatcong</item>
+        <item>Lebanon</item>
+        <item>Lincoln Park</item>
+        <item>Linden</item>
+        <item>Lindenwold</item>
+        <item>Little Falls</item>
+        <item>Little Silver</item>
+        <item>Long Branch</item>
+        <item>Lyndhurst</item>
+        <item>Lyons</item>
+        <item>Madison</item>
+        <item>Mahwah</item>
+        <item>Manasquan</item>
+        <item>Maplewood</item>
+        <item>Metropark</item>
+        <item>Metuchen</item>
+        <item>Middletown Nj</item>
+        <item>Middletown Ny</item>
+        <item>Millburn</item>
+        <item>Millington</item>
+        <item>Montclair Heights</item>
+        <item>Montvale</item>
+        <item>Morris Plains</item>
+        <item>Morristown</item>
+        <item>Mount Olive</item>
+        <item>Mount Tabor</item>
+        <item>Mountain Avenue</item>
+        <item>Mountain Lakes</item>
+        <item>Mountain Station</item>
+        <item>Mountain View</item>
+        <item>Murray Hill</item>
+        <item>Nanuet</item>
+        <item>Netcong</item>
+        <item>Netherwood</item>
+        <item>New Brunswick</item>
+        <item>New Providence</item>
+        <item>Penn Station</item>
+        <item>Newark Broad St</item>
+        <item>Newark Penn Station</item>
+        <item>North Branch</item>
+        <item>North Elizabeth</item>
+        <item>New Bridge Landing</item>
+        <item>Oradell</item>
+        <item>Orange</item>
+        <item>Otisville</item>
+        <item>Park Ridge</item>
+        <item>Passaic</item>
+        <item>Paterson</item>
+        <item>Peapack</item>
+        <item>Pearl River</item>
+        <item>Perth Amboy</item>
+        <item>Plainfield</item>
+        <item>Plauderville</item>
+        <item>Point Pleasant</item>
+        <item>Port Jervis</item>
+        <item>Princeton</item>
+        <item>Princeton Jct</item>
+        <item>Radburn</item>
+        <item>Rahway</item>
+        <item>Ramsey</item>
+        <item>Raritan</item>
+        <item>Red Bank</item>
+        <item>Ridgewood</item>
+        <item>River Edge</item>
+        <item>Rutherford</item>
+        <item>Salisbury Mills-Cornwall</item>
+        <item>Short Hills</item>
+        <item>Sloatsburg</item>
+        <item>Somerville</item>
+        <item>South Amboy</item>
+        <item>South Orange</item>
+        <item>Spring Lake</item>
+        <item>Spring Valley</item>
+        <item>Stirling</item>
+        <item>Suffern</item>
+        <item>Summit</item>
+        <item>Teterboro</item>
+        <item>Towaco</item>
+        <item>Trenton Transit Center</item>
+        <item>Tuxedo</item>
+        <item>Upper Montclair</item>
+        <item>Waldwick</item>
+        <item>Walnut Street</item>
+        <item>Watchung Avenue</item>
+        <item>Watsessing Avenue</item>
+        <item>Westfield</item>
+        <item>Westwood</item>
+        <item>White House</item>
+        <item>Woodbridge</item>
+        <item>Woodcliff Lake</item>
+        <item>Wood Ridge</item>
+        <item>Military Park Light Rail Station</item>
+        <item>Davenport Avenue Light Rail Station</item>
+        <item>Norfolk Street Light Rail Station</item>
+        <item>Park Avenue Newark Light Rail Station</item>
+        <item>Warren Street Light Rail Station</item>
+        <item>Washington Street Light Rail Station</item>
+        <item>Port Imperial Hblr Station</item>
+        <item>Bloomfield Avenue Light Rail Station</item>
+        <item>Orange Street Light Rail Station</item>
+        <item>Lincoln Harbor Light Rail Station</item>
+        <item>Branch Brook Park Light Rail Station</item>
+        <item>Penn Station Light Rail Departure</item>
+        <item>Monmouth Park</item>
+        <item>Hamilton</item>
+        <item>Jersey Ave</item>
+        <item>Exchange Place Light Rail Station</item>
+        <item>Essex Street Light Rail Station</item>
+        <item>Marin Boulevard Light Rail Station</item>
+        <item>Jersey Avenue Light Rail Station</item>
+        <item>Liberty State Park-Ride Light Rail Station</item>
+        <item>Garfield Avenue Light Rail Station</item>
+        <item>Mlk Drive Light Rail Station</item>
+        <item>West Side Avenue Light Rail Station</item>
+        <item>Richard Street Light Rail Station</item>
+        <item>Danforth Avenue Light Rail Station</item>
+        <item>45th Street Light Rail Station</item>
+        <item>34th Street Light Rail Station</item>
+        <item>Aberdeen-Matawan</item>
+        <item>Harborside Light Rail Station</item>
+        <item>Harsimus Cove Light Rail Station</item>
+        <item>Newport Light Rail Station</item>
+        <item>Newark Airport Railroad Station</item>
+        <item>Silver Lake Light Rail Station</item>
+        <item>Grove Street Light Rail Station</item>
+        <item>Msu</item>
+        <item>Union</item>
+        <item>Frank R Lautenberg Secaucus Lower Level</item>
+        <item>Frank R Lautenberg Secaucus Upper Level</item>
+        <item>22nd Street Light Rail Station</item>
+        <item>Trenton Transit Center Light Rail Station</item>
+        <item>Hamilton Avenue Light Rail Station</item>
+        <item>Cass Street Light Rail Station</item>
+        <item>Bordentown Light Rail Station</item>
+        <item>Roebling Light Rail Station</item>
+        <item>Florence Light Rail Station</item>
+        <item>Burlington Towne Ctr Light Rail Station</item>
+        <item>Burlington South Light Rail Station</item>
+        <item>Beverly/Edgewater Park Light Rail Station</item>
+        <item>Delanco Light Rail Station</item>
+        <item>Riverside Light Rail Station</item>
+        <item>Cinnaminson Light Rail Station</item>
+        <item>Riverton Light Rail Station</item>
+        <item>Palmyra Light Rail Station</item>
+        <item>Route 73/Pennsauken Light Rail Station</item>
+        <item>36th Street Light Rail Station</item>
+        <item>Walter Rand Transportation Ctr</item>
+        <item>Cooper Street/Rutgers Light Rail Station</item>
+        <item>Aquarium Light Rail Station</item>
+        <item>Entertainment Center Light Rail Station</item>
+        <item>Ramsey Route 17 Station</item>
+        <item>2nd Street Light Rail Station</item>
+        <item>9th Street Light Rail Station</item>
+        <item>Bergenline Ave</item>
+        <item>Tonnelle Avenue Light Rail Station</item>
+        <item>Broad Street Light Rail Station</item>
+        <item>Riverfront Stadium Light Rail Station</item>
+        <item>Washington Park Light Rail Station</item>
+        <item>Atlantic Street Light Rail Station</item>
+        <item>Njpac/Centre Street Light Rail Station</item>
+        <item>Hoboken Terminal Light Rail Station</item>
+        <item>Mount Arlington</item>
+        <item>Wayne/Route 23 Transit Center [RR]</item>
+        <item>Meadowlands Sports Complex Station</item>
+        <item>Penn Station Light Rail Arrival</item>
+        <item>8th Street Light Rail Station</item>
+        <item>Pennsauken Transit Center Light Rail Sta</item>
+        <item>Pennsauken Transit Center</item>
+
+
+
+
+
+    </string-array>
+    <string name="title_activity_test_database">TestDatabaseActivity</string>
+    <string name="title_activity_njtransitrail_config">njtransitrail_config</string>
+    <string name="title_activity_feed_reader_contract">FeedReaderContract</string>
+    <string name="title_activity_read_text_file">read_text_file</string>
+    <string name="title_activity_read_text">read_text</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="update_database">Update Database</string>
+    <string name="title_activity_check_bluetooth">CheckBluetooth</string>
+    <string name="vibrate_on_text">Vibrate On</string>
+    <string name="vibrate_off_text">Vibrate Off</string>
+    <string name="checkblbutton">Check Bluetooth</string>
+    <string name="title_activity_upload_confirm">UploadConfirm</string>
+    <string name="upload_previous_line">Upload Previous Line</string>
+    <string name="recent_lines">Recent Lines</string>
+    <string name="add_new_lines">Add New Lines</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_update_database">UpdateDatabase</string>
+    <string name="update_database_text">Update Database</string>
+    <string name="updating_station_names_and_trip_ids">Updating Station Names and Trip IDs</string>
+    <string name="updating_station_names_text">Updating Station Names</string>
+    <string name="select_station_text">select_station_text</string>
+    <string name="title_activity_list_view_scroll_test">ListViewScrollTest</string>
+    <string name="show_schedules_text">Show Schedules</string>
+    <string name="alarm_message_text">The alarm will wake you up at:</string>
+
+
+</resources>
